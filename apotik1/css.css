@@ -1,0 +1,502 @@
+@media only screen and (max-width:800px){
+}
+*{
+margin:0;
+text-decoration:none;
+font-family:Maiandra GD;
+}
+body{
+background:#F8FED8 100% 100%;
+}
+button{
+cursor:pointer;
+}
+.logo{
+padding:10px;
+cursor:pointer;
+}
+.atas{
+background:#009B4D;
+border-bottom:1px solid #888888;
+width:100%;
+height:80px;
+position:fixed;
+}
+.logo h6{
+font-size:20pt;
+font-family:Maiandra GD;
+margin-left:120px;
+position:relative;
+color:#fff;
+}
+.logo hr{
+color:#fff;
+position:relative;
+width:185px;
+margin-left:15px;
+}
+.logo h5{
+font-size:12pt;
+font-family:Maiandra GD;
+margin-left:140px;
+position:relative;
+color:#fff;
+float:center;
+}
+.tulisan{
+margin-left:300px;
+padding:100px;
+margin-top:-50px;
+}
+
+.logo img{
+margin-left:60px;
+cursor:pointer;
+text-decoration:none;
+margin-top:-10px;
+float:left;
+width:40px;
+height:80px;
+border:none;
+}
+.menu input{
+margin-top:-50px;
+margin-left:-100px;
+}
+
+.alfab {
+top:10px;
+left:400px;
+padding:5px;
+background:#009B4D;
+color : #fff !important;
+margin-left:0px !important;
+}
+
+.latarmenu{
+float:right;
+width:150px;
+text-decoration:none;
+}
+.menu a{
+float:left;
+font-size:20pt;
+font-family:Maiandra GD;
+color:#fff;
+margin-top:-50px;
+margin-right:20px;
+}
+.segi1{
+width:0;
+height:0;
+border-width:20px;
+border-style:solid;
+border-color: transparent  transparent #B0E3FF transparent;
+position:fixed;
+top:32px;
+right:90px;
+}
+.slide{
+margin:0;
+width:100%;
+height:400px;
+background:#93CB70;
+margin-top:-5px;
+}
+#contact br{
+margin-bottom:15px;
+}
+#contact{
+padding:5px;
+display:none;
+width:300px;
+height:180px;
+background:#E7F7FF;
+position:fixed;
+top:70px;
+right:20px;
+border:4px solid #B0E3FF;
+}
+#ini button {
+	color: white;
+	border: 0;
+	overflow: hidden;
+	font-size: 18px;
+	border-radius: 3px;
+	position: relative;
+}
+#
+ button:after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: #075DE6;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.green {
+	background: #2ecc71;
+}
+#ini button[data-direction="down"]:hover:after {
+	-webkit-transform: translate(0,100%);
+	-moz-transform: translate(0,100%);
+	-o-transform: translate(0,100%);
+	-ms-transform: translate(0,100%);
+	transform: translate(0,100%);
+  background: rgba(0,0,0,0);
+}
+img{
+width:200px;
+margin-right:1px;
+margin-bottom:10px;
+border:1px solid black;
+}
+#gambarpro{
+display:none;
+height:400px;
+margin-left:50px;
+float:Left;
+}
+#gambarpro .fa{
+position:relative;
+top:-330px;
+font-size:22pt;
+color:black;
+}
+
+#slider2 {
+width: 620px;
+height: 400px;
+margin-left:350px;
+overflow: hidden;
+transition:all .2s ease-out;
+margin-top:100px;
+}
+#slider2 img{
+width: 620px;
+height: 350px;
+border:none;
+margin-top:20px;
+}
+#mask {
+overflow:hidden;
+}
+#slider2 ul {
+width:5500px;
+list-style:none;
+padding:0;
+margin:0;
+-moz-animation:slide-animation 15s infinite;
+-webkit-animation:slide-animation 15s infinite;
+position:relative;
+left:0px;
+overflow:hidden;
+transition:all 2.0s;
+}
+#slider2 li {
+display:inline;
+width:1078px;
+height:450px;
+margin:0;
+padding:0;
+float:left;
+position:relative;
+border-radius:100%;
+
+}
+#slider2 li:last-of-type {
+background-color:#362c30;
+border-radius:100%;
+}
+#slider2 li a {
+display:block;
+text-decoration:none;
+border-radius:100%;
+}
+#slider2 li span {
+display:block;
+width:560px;
+padding:15px 20px;
+position:absolute; 
+bottom:0; 
+left:0;
+background-color:rgba(54,44,48,0.6);
+border-top:1px solid #362c30;
+text-shadow:1px 1px 1px #362c30;
+pointer-events:none;
+text-align:left;
+}
+
+@-webkit-keyframes slide-animation {
+0% {opacity:0;}
+2% {opacity:1;}
+20% {left:0; opacity:1;}
+22.5% {opacity:0.6;}
+25% {left:-1078px; opacity:1;}
+45% {left:-1078px; opacity:1;}
+47.5% {opacity:0.6;}
+50% {left:-2156px; opacity:1;}
+70% {left:-2156px; opacity:1;}
+72.5% {opacity:0.6;}
+75% {left:-3234px; opacity:1;}
+95% {opacity:1;}
+98% {left:-3234px; opacity:0;}
+100% {left:0; opacity:0;}
+}
+@-moz-keyframes slide-animation {
+0% {opacity:0;}
+2% {opacity:1;}
+20% {left:0; opacity:1;}
+22.5% {opacity:0.6;}
+25% {left:-1078px; opacity:1;}
+45% {left:-1078px; opacity:1;}
+47.5% {opacity:0.6;}
+50% {left:-2156px; opacity:1;}
+70% {left:-2156px; opacity:1;}
+72.5% {opacity:0.6;}
+75% {left:-3234px; opacity:1;}
+95% {opacity:1;}
+98% {left:-3234px; opacity:0;}
+100% {left:0; opacity:0;}
+}
+@-webkit-keyframes progress {
+0% {width:0; opacity:0;}
+2% {width:0; opacity:1;}
+20% {width:1078px; opacity:1;}
+22.5% {width:1078px; opacity:0;}
+22.59% {width:0;}
+25% {width:0; opacity:1;}
+45% {width:1078px; opacity:1;}
+47.5% {width:1078px; opacity:0;}
+47.59% {width:0;}
+50% {width:0; opacity:1;}
+70% {width:1078px; opacity:1;}
+72.5% {width:1078px; opacity:0;}
+72.59% {width:0;}
+75% {width:0; opacity:1;}
+95% {width:1078px; opacity:1;}
+98% {width:1078px; opacity:0;}
+100% {width:0; opacity:0;}
+}
+@-moz-keyframes progress {
+0% {width:0; opacity:0;}
+2% {width:0; opacity:1;}
+20% {width:1078px; opacity:1;}
+22.5% {width:1078px; opacity:0;}
+22.59% {width:0;}
+25% {width:0; opacity:1;}
+45% {width:1078px; opacity:1;}
+47.5% {width:1078px; opacity:0;}
+47.59% {width:0;}
+50% {width:0; opacity:1;}
+70% {width:1078px; opacity:1;}
+72.5% {width:1078px; opacity:0;}
+72.59% {width:0;}
+75% {width:0; opacity:1;}
+95% {width:1078px; opacity:1;}
+98% {width:1078px; opacity:0;}
+100% {width:0; opacity:0;}
+}
+@-webkit-keyframes overlay-fade {
+0% {opacity:0;}
+2% {opacity:0.5;}
+95% {opacity:0.5;}
+98% {opacity:0;}
+100% {opacity:0;}
+}
+@-moz-keyframes overlay-fade {
+0% {opacity:0;}
+2% {opacity:0.5;}
+95% {opacity:0.5;}
+98% {opacity:0;}
+100% {opacity:0;}
+}
+
+.promo {
+margin:0 auto;
+}
+
+.promo img{
+margin-top:30px;
+padding-left:70px;
+padding-right:50px;
+height:250px;
+border:none;
+}
+.promo a{
+color:#686868;
+float:left;
+text-align:center;
+margin-left:-30px;
+}
+a{
+color:#1200fe;
+}
+.req img{
+margin-top:60px;
+margin-right:-70px;
+float:left;
+height:270px;
+}
+.req br{
+margin-bottom:20px;
+}
+.req h6{
+font-size:12pt;
+float:left;
+padding:110px;
+}
+.req input{
+width:70px;
+font-weight:bold;
+}
+.req button{
+
+	outline: none;
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	background: #009B4D;
+
+}
+#jumlah{
+display:none;
+position:fixed;
+top:90px;
+left:400px;
+font-weight:bold;
+font-size:12pt;
+}
+#jumlah input{
+margin-left:4px;
+}
+#pesan{
+width:100px;
+height:40px;
+font-weight:bold;
+}
+#jumlah button{
+height:26px;
+	outline: none;
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	background: #009B4D;
+
+}
+.info{
+position:fixed;
+margin-left:10px;
+top:500px;
+height:40px;
+}
+.info button{
+	padding: 1em 2em;
+	outline: none;
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	background: #009B4D;
+}
+.button button{
+width:40px;
+height:40px;
+font-size:15pt;
+position:relative;
+top:-64px;
+right:-565px;
+color:green;
+background:white;
+}
+.button h2{
+float:left;
+margin-left:20px;
+margin-top:-50px;
+color:white;
+}
+.samping{
+position:relative;
+float:right;
+top:-642px;
+right:-600px;
+}
+#daftar{
+width:400px;
+height:100px;
+padding:10px;
+margin-left:200px;
+}
+#daftar input{
+width:100%;
+margin-bottom:5px;
+height:40px;
+text-align:left;
+padding-left:20px;
+padding-right:20px;
+border-radius:3px;
+border:1px solid green;
+}
+#daftar h5{
+font-size:12pt;
+margin-top:10px;
+margin-bottom:5px;
+}
+select{
+border:1px solid green;
+text-align:center;
+border-radius:3px;
+font-size:13pt;
+}
+#daftar select[name=jk]{
+width:100%;
+margin-bottom:5px;
+height:40px;
+border:1px solid green;
+text-align:center;
+}
+#daftar select[name=tgl]{
+height:40px;
+width:70px;
+}
+#daftar select[name=bln]{
+height:40px;
+width:150px;
+}
+#daftar select[name=thn]{
+height:40px;
+width:70px;
+}
+.beranda a:hover{
+background:#F8FED8;
+border:1px solid red;
+border-top:none;
+transition: background .5s,color .5s,border .7s;
+color:green;
+}
+.beranda a{
+font-size:25pt;
+position:relative;
+background:green;
+color:white;
+border:1px solid #fff;
+border-top:none;
+transition: background .6s,color .5s,border .7s;
+}
+.samping h6{
+font-size:13pt;
+}
+.samping button{
+height:40px;
+width:100px;
+color:white;
+margin-top:5px;
+border:none;
+background:#009B4D;
+}

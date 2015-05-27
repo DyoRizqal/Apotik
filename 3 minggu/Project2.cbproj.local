@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/05/11 10:07:59.000.894,=C:\Users\DYO.R.P\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2015/05/11 10:07:59.000.910,=C:\Users\DYO.R.P\Documents\Embarcadero\Studio\Projects\Unit5.cpp</Transaction>
+    <Transaction>2015/05/11 10:08:18.000.876,C:\Users\DYO.R.P\Documents\3 minggu\Unit5.cpp=C:\Users\DYO.R.P\Documents\Embarcadero\Studio\Projects\Unit5.cpp</Transaction>
+    <Transaction>2015/05/11 10:08:18.000.876,C:\Users\DYO.R.P\Documents\3 minggu\Unit5.h=C:\Users\DYO.R.P\Documents\Embarcadero\Studio\Projects\Unit5.h</Transaction>
+    <Transaction>2015/05/11 10:08:18.000.876,C:\Users\DYO.R.P\Documents\3 minggu\Unit5.dfm=C:\Users\DYO.R.P\Documents\Embarcadero\Studio\Projects\Unit5.dfm</Transaction>
+    <Transaction>2015/05/11 10:08:19.000.549,C:\Users\DYO.R.P\Documents\3 minggu\Project2PCH1.h=C:\Users\DYO.R.P\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2015/05/11 10:08:20.000.184,C:\Users\DYO.R.P\Documents\3 minggu\Project2.cbproj=C:\Users\DYO.R.P\Documents\Embarcadero\Studio\Projects\Project2.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
